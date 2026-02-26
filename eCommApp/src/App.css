@@ -393,3 +393,100 @@
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     color: black;
 }
+
+.promotion-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2rem;
+    width: 100%;
+}
+
+.promotion-section {
+    margin-bottom: 3rem;
+    background: rgba(255, 255, 255, 0.95);
+    border-radius: 12px;
+    padding: 1.5rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.promotion-section h2 {
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 1.5rem;
+}
+
+.promotion-empty {
+    color: #666;
+    font-size: 1.1rem;
+}
+
+.carousel {
+    display: flex;
+    gap: 1.5rem;
+    overflow-x: auto;
+    padding-bottom: 1rem;
+    scroll-snap-type: x mandatory;
+}
+
+.carousel::-webkit-scrollbar {
+    height: 6px;
+}
+
+.carousel::-webkit-scrollbar-track {
+    background: #f1f1f1;
+    border-radius: 3px;
+}
+
+.carousel::-webkit-scrollbar-thumb {
+    background: #667eea;
+    border-radius: 3px;
+}
+
+.carousel-card {
+    min-width: 260px;
+    max-width: 260px;
+    scroll-snap-align: start;
+    flex-shrink: 0;
+}
+
+.badge {
+    display: inline-block;
+    padding: 0.25rem 0.6rem;
+    border-radius: 4px;
+    font-size: 0.75rem;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+}
+
+.badge-new {
+    background-color: #667eea;
+    color: white;
+}
+
+.badge-sale {
+    background-color: #e74c3c;
+    color: white;
+}
+
+.price-original {
+    text-decoration: line-through;
+    color: #999;
+    margin-right: 0.5rem;
+    font-size: 1rem;
+}
+
+.price-sale {
+    color: #e74c3c;
+    font-size: 1.25rem;
+    font-weight: bold;
+}
+
+@media (max-width: 768px) {
+    .promotion-container {
+        padding: 1rem;
+    }
+
+    .promotion-section h2 {
+        font-size: 1.5rem;
+    }
+}

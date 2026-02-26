@@ -29,4 +29,7 @@ export interface Product {
     image?: string;
     reviews: Review[];
     inStock: boolean;
+    isNewArrival?: boolean;
+    onSale?: boolean;
+    salePrice?: number;
 }

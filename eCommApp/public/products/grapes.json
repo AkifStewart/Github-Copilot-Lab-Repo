@@ -6,5 +6,8 @@
     "image": "grapes.png",
     "category": "fruits",
     "inStock": true,
+    "isNewArrival": true,
+    "onSale": true,
+    "salePrice": 1.99,
     "reviews": []
 }
