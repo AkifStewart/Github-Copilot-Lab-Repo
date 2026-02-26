@@ -6,5 +6,7 @@
     "image": "pear.png",
     "category": "fruits",
     "inStock": true,
+    "onSale": true,
+    "salePrice": 0.45,
     "reviews": []
 }

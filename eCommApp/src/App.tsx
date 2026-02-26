@@ -4,6 +4,7 @@ import ProductsPage from './components/ProductsPage';
 import LoginPage from './components/LoginPage';
 import AdminPage from './components/AdminPage';
 import CartPage from './components/CartPage';
+import PromotionPage from './components/PromotionPage';
 import { CartProvider } from './context/CartContext';
 import './App.css';
 
@@ -13,6 +14,7 @@ function App() {
             <Routes>
                 <Route path="/" element={<HomePage />} />
                 <Route path="/products" element={<ProductsPage />} />
+                <Route path="/promotions" element={<PromotionPage />} />
                 <Route path="/login" element={<LoginPage />} />
                 <Route path="/admin" element={<AdminPage />} />
                 <Route path="/cart" element={<CartPage />} />
